@@ -11,11 +11,25 @@ The app accepts any image format supported by Apple's CoreImage API (pdf, gif, j
 
 Usage: 
 
-`./qrcode file.pdf`
+`./qrcode file.png`
 
 Output: 
 
-`My QRcode string here`.
+Each QR code found in the document will be printed on a new line. 
+
+![Example file with multiple QR Codes](https://files.littlebird.com.au/e0RrJ-uSF6A1uyz6EzwmjdF5I3ZG1oh7Se.png "Example file with multiple QR Codes")
+
+For example the file above would output:
+
+```
+my@mac ~ % ./qrcode ./e0RrJ.png
+|43742|ESN3-822|PINK|12|[200_unique_serializations]|
+|43742|ESN3-822|PINK|18|[200_unique_serializations]|
+|43742|ESN3-822|BLU|9|[200_unique_serializations]|
+|43742|ESN3-822|PINK|9|[200_unique_serializations]|
+|43742|ESN3-822|BLU|12|[200_unique_serializations]|
+|43743|ETSG-1021|DK._BLU|18|[200_unique_serializations]|
+```
 
 
 ### Why did I build this? 
