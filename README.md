@@ -4,7 +4,7 @@
 
 #### What is this app?
 
-This is a simple Command Line based QRCode Reader simple command line QRCode Reader for Mac
+This is a simple command line QRCode Reader for Mac.
 The app accepts any image format supported by Apple's CoreImage API (pdf, gif, jpg, png, tiff etc).
 
 ### Usage
